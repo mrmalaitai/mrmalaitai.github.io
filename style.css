@@ -1,0 +1,19 @@
+.banner{
+    background-color: blanchedalmond;
+    background-image: url(images/cover_photo.jpg);
+    color: #FFFFFF;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro{
+   padding-top: 34vh;
+}
+
+.intro h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+}
