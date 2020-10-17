@@ -147,7 +147,34 @@
   .navbar:hover .logo svg {
 	transform: rotate(-180deg);
   }
-  
+
+  .transcript{
+	  margin-left: 5%;
+	  margin-right: 10%;
+	  font-style: italic;
+	  font-weight: bold;
+	  font-size: 0.8em;
+  }
+
+  .figure{
+	  text-align: center;
+	  font-style: italic;
+  }
+
+  .audio-rec{
+	  margin-left: 5%;
+  }
+
+  video{
+	  max-width: 70%;
+	  height: auto;
+  }
+
+  .video-rec{
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+
   /* Small screens */
   @media only screen and (max-width: 600px) {
 	.navbar {
