@@ -82,7 +82,7 @@
   .nav-link {
 	display: flex;
 	align-items: center;
-	height: 5rem;
+	height: 4rem;
 	color: var(--text-primary);
 	text-decoration: none;
 	filter: grayscale(100%) opacity(0.7);
@@ -166,12 +166,15 @@
   }
 
   video{
-	  max-width: 70%;
+	  max-width: 85%;
 	  height: auto;
   }
 
   .video-rec{
-	  margin-left: 10%;
+	  margin-left: 5%;
+  }
+
+  p{
 	  margin-right: 10%;
   }
 
@@ -180,7 +183,7 @@
 	.navbar {
 	  bottom: 0;
 	  width: 100vw;
-	  height: 5rem;
+	  height: 4rem;
 	}
   
 	.logo {
@@ -198,13 +201,17 @@
 	main {
 	  margin: 0;
 	}
+
+	p{
+		margin-right: 0;
+	}
   }
   
   /* Large screens */
   @media only screen and (min-width: 600px) {
 	.navbar {
 	  top: 0;
-	  width: 5rem;
+	  width: 4rem;
 	  height: 100vh;
 	}
   
@@ -224,6 +231,10 @@
 	.navbar:hover .logo-text
 	{
 	  left: 0px;
+	}
+
+	p{
+		margin-right: 0;
 	}
   }
   
